@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <title>Web Assignment 4</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">Assignment 4</div>
+        <ul>
+            <li><a href="../Task0-1.html">Task 1</a></li>
+            <li><a href="../Task2/Task2.html">Task 2</a></li>
+            <li><a href="Task3.html">Task 3</a></li>
+            <li><a href="../Task4/Task4.html">Task 4</a></li>
+        </ul>
+    </nav>
+
+    <div class="container my-4">
+
+        <h1 style="color: rgb(1, 119, 70); font-weight: bold;">Task 3</h1>
+
+        <form>
+            <div class="row g-3">
+              
+                <div class="col-md-6">
+                    <label for="validationName" class="form-label">Full Name</label>
+                    <input type="text" class="form-control is-valid" id="validationName"  required>
+
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+
+                    <div class="invalid-feedback">
+                        Please provide a valid name.
+                    </div>
+                </div>
+
+        
+                <div class="col-md-6">
+                    <label for="validationEmail" class="form-label">Email address</label>
+                    <input type="email" class="form-control is-invalid" id="validationEmail"  required>
+                    <div class="invalid-feedback">
+                        Email is required and must be a valid address.
+                    </div>
+                </div>
+
+               
+                <div class="col-12">
+                    <label for="validationMessage" class="form-label">Message</label>
+                    <textarea class="form-control is-invalid" id="validationMessage" rows="4" required placeholder="only 10/10 baddies can see this text"></textarea>
+                    
+                    <div class="invalid-feedback">
+                        Message cannot be empty.
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+            </div>
+        </form>
+
+
+
+
+    </div>
+
+
+
+
+
+
+</body>
+</html>
